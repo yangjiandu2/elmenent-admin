@@ -5,6 +5,12 @@
 
 > 一开始想找一个比较精简的后台管理系统的模板，首先考虑的是vue-emenent-admin的，但是它包含的确是太了，各种耦合也比较高，不易使用。最后还是在git上面找了算是比较精简的admin 在加以修改。加上自己的feel，打造了一个算是比较精简的模板。希望喜欢的朋友 多多提 issues 和 [Star](https://github.com/ygnihao/emenent-admin) 。
 
+## 示例图
+
+https://www.tapd.cn/tfl/captures/2021-01/tapd_39710988_base64_1611994030_3.png
+
+https://www.tapd.cn/tfl/captures/2021-01/tapd_39710988_base64_1611994055_53.png
+
 ## 使用的组件
 ``` bash
     axios   数据请求
