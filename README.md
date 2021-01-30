@@ -1,4 +1,4 @@
-# vue-admin(3.0)
+# vue-admin
 > 基于Element UI 框架 + vuex + less 搭配的一个精简 后台管理系统
 
 ## 起因
@@ -36,7 +36,7 @@ npm run build
 npm run build --report
 ```
 
-github[vue-admin](https://github.com/ygnihao/emenent-admin)
+github[vue-admin](https://github.com/ygnihao/elmenent-admin)
 
 框架借鉴[vue-admin](https://github.com/Apache-Ra/vue-admin.git)
 

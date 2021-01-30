@@ -41,7 +41,7 @@
               <el-dropdown-item>作者github</el-dropdown-item>
             </a>
             <a
-              href="https://github.com/ygnihao/emenent-admin"
+              href="https://github.com/ygnihao/elmenent-admin"
               target="_blank"
             >
               <el-dropdown-item>项目仓库</el-dropdown-item>
