@@ -26,6 +26,8 @@ https://www.tapd.cn/tfl/captures/2021-01/tapd_39710988_base64_1611994055_53.png
     LocalStage LocalStroage包装
     Cookie  Cookie包装
 ```
+## 版本新增
+ - 1.1.1 这个版本移植了vue-element-admin得一个头像编辑组件 ImageCropper
 ## Build Setup
 
 ``` bash

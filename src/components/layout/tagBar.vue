@@ -10,7 +10,7 @@
         <router-link :to="item.path" class="tags-li-title">
           {{ item.title }}
         </router-link>
-        <span class="tags-li-icon" @click="closeTags(index)"
+        <span class="tags-li-icon" @click.stop="closeTags(index)"
           ><i class="el-icon-close"></i
         ></span>
       </li>

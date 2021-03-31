@@ -78,6 +78,22 @@ const asyncRoute = [
                 component: resolve => require.ensure([], () => resolve(require('@/views/clue/index.vue')), 'error'),
                 meta: { title: '线索模块' },
             }
+            , {
+                path: '/cardDragger',
+                icon: "el-icon-lx-cascades",
+                name:'组件',
+                component: resolve => require.ensure([], () => resolve(require('../views/componentModule/cardDragger.vue')), 'error'),
+                meta: { title: '组件' },
+                children:[
+                    {
+                        path:'/cardDraggerList',
+                        name:'卡片拖动',
+                        icon: "el-icon-lx-cascades",
+                        component: resolve => require.ensure([], () => resolve(require('../views/componentModule/cardDragger.vue')), 'statistics'),
+                        meta: { title: '卡片拖动' },
+                    }
+                ],
+            }
         ]
     },{
         path: '/403',

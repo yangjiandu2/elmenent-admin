@@ -27,7 +27,7 @@ export default {
     },
     photo:{
         type:String,
-        default:'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic16.nipic.com%2F20110723%2F8001366_104604606173_2.jpg&refer=http%3A%2F%2Fpic16.nipic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614578767&t=0dfe09c52ce48f2c247f3cc36a724a8f'
+        default:'https://profile.csdnimg.cn/F/A/F/0_qq_43597938'
     },
       backgroundColor:{
           type:String,
@@ -48,7 +48,7 @@ export default {
 
   methods: {
       linkToPage(){
-          this.$router.push('/home')
+          this.$router.push('/home').catch(err=>{})
       },
   },
 };
